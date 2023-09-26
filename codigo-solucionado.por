@@ -284,7 +284,7 @@ programa {
     }   
     convert = mat.arredondar(convert, 2) 
     escreva("O valor convertido fica em : ", moeda, convert)
-    u.aguarde(20000) 
+    u.aguarde(30000) 
     limpa()
     menu()
   }
