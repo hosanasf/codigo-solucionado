@@ -225,7 +225,7 @@ programa {
         caso 1:convert = valor1 * 1.00
         moeda ="R$ "
         pare
-        caso 2:convert = valor1 * 0.2
+        caso 2:convert = valor1 * 0.20
         moeda ="US$ "
         pare
         caso 3:convert = valor1 * 0.19
@@ -233,24 +233,24 @@ programa {
         pare
         caso 4:convert = valor1 * 170.24 
         moeda ="KZ "
-        pare
       }
+      pare
       
 
       caso 2: escolha(moeda2){ 
         caso 1:convert = valor1 * 4.86
         moeda ="R$"
         pare
-        caso 2:convert = valor1 * 1.00
+        caso 2:convert = valor1 * 1
         moeda ="US$"
         pare
         caso 3:convert = valor1 * 0.93
         moeda ="€"
         pare
-        caso 4:convert = valor1 * 829.0
+        caso 4:convert = valor1 * 829
         moeda ="KZ"
-        pare
       }
+      pare
 
     caso 3: escolha(moeda2){  
       caso 1: convert = valor1 * 5.19
@@ -264,8 +264,8 @@ programa {
       pare
       caso 4: convert = valor1 * 884.70 
       moeda ="KZ "
-      pare
-    }      
+    } 
+    pare     
       caso 4:  escolha(moeda2){ 
       	        
         caso 1:convert = valor1 * 0.0058
@@ -279,8 +279,8 @@ programa {
         pare
         caso 4:convert = valor1 * 1.00 
         moeda = "KZ "
-        pare
       }
+      pare
     }   
     convert = mat.arredondar(convert, 2) 
     escreva("O valor convertido fica em : ", moeda, convert)
