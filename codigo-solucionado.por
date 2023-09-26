@@ -222,7 +222,7 @@ programa {
   funcao Converter(){
     escolha(moeda1){
       caso 1: escolha(moeda2){
-        caso 1:convert = valor1 * 1
+        caso 1:convert = valor1 * 1.00
         moeda ="R$ "
         pare
         caso 2:convert = valor1 * 0.2
@@ -233,39 +233,39 @@ programa {
         pare
         caso 4:convert = valor1 * 170.24 
         moeda ="KZ "
+        pare
       }
-      pare
+      
 
       caso 2: escolha(moeda2){ 
         caso 1:convert = valor1 * 4.86
         moeda ="R$"
         pare
-        caso 2:convert = valor1 * 1
+        caso 2:convert = valor1 * 1.00
         moeda ="US$"
         pare
         caso 3:convert = valor1 * 0.93
         moeda ="€"
         pare
-        caso 4:convert = valor1 * 829 
+        caso 4:convert = valor1 * 829.0
         moeda ="KZ"
+        pare
       }
-      pare
 
     caso 3: escolha(moeda2){  
       caso 1: convert = valor1 * 5.19
       moeda ="R$ "
-
+      pare
       caso 2: convert = valor1 * 1.06
       moeda ="US$ "
-
-      caso 3: convert = valor1 * 1
+      pare
+      caso 3: convert = valor1 * 1.00
       moeda ="€ "
-
-      caso 4: convert = valor1 *  884.70 
+      pare
+      caso 4: convert = valor1 * 884.70 
       moeda ="KZ "
-    } 
-      pare   
-      
+      pare
+    }      
       caso 4:  escolha(moeda2){ 
       	        
         caso 1:convert = valor1 * 0.0058
@@ -277,7 +277,7 @@ programa {
         caso 3:convert = valor1 * 0.0011
         moeda ="€ "
         pare
-        caso 4:convert = valor1 * 1 
+        caso 4:convert = valor1 * 1.00 
         moeda = "KZ "
         pare
       }
@@ -305,14 +305,3 @@ programa {
     }
 }
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 6687; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
